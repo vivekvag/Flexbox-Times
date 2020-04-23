@@ -33,7 +33,7 @@ header{
 
 header h1 {
   font-family: Chomsky, cursive !important;
-  font-size: 92px;
+  font-size: 420%;
 }
 
 header div:first-child{ margin-left: 8vw;}
@@ -42,7 +42,7 @@ header div:last-child{ margin-right: 8vw;}
 header div{
   padding: 12px;
   border: 2px solid;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 nav{
@@ -113,10 +113,34 @@ figcaption{
 }
 
 
+@media (max-width: 1000px) {
+
+
+  header h1{
+    font-size: 44px;
+    margin-left: 12px;
+  }
+
+  header div:first-child{ margin-left: 4vw;}
+
+  #side-article *{
+    width: 100%;
+
+  }
+  #main-article h2{
+    text-align: left;
+    font-size: 120%;
+  }
+
+}
+
+
 @media (max-width: 600px) {
   header h1{
-    font-size: 30px;
-    margin: 20px;
+    font-size: 25px;
   }
+
+  header div:first-child{ margin-left: 3vw; font-size: 10px;}
+  header div:last-child{ margin-right: 3vw; font-size: 10px;}
 
 }
