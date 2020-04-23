@@ -1,0 +1,102 @@
+:root {
+    font-size: 140%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #FFFFFD;
+    margin: 32px;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    font-family: serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+
+header h1 {
+  font-family: Chomsky, cursive !important;
+  font-size: 92px;
+}
+
+header div:first-child{ margin-left: 8vw;}
+header div:last-child{ margin-right: 8vw;}
+
+header div{
+  padding: 12px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+nav h5:first-child{margin-left: 3vw;}
+nav h5:last-child{margin-right: 3vw;}
+
+section{
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+article{
+  margin-top: 18px;
+}
+
+#side-article{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 800px;
+  max-height: 1000px;
+  padding-right: 5px;
+  flex-shrink: .5;
+  overflow: hidden;
+  margin-right: 10px;
+  border-right: 1px solid;
+
+}
+#side-article * {
+  width: 50%;
+}
+
+#side-article h3 {
+  text-align: center !important;
+  margin-bottom: 3px;
+}
+
+#main-article{
+  margin-top: 12px;
+}
+
+#main-article h2{
+  margin-bottom: 15px;
+  font-size: 38px;
+}
+
+#main-article img{
+  width: 100%;
+}
