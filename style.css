@@ -1,5 +1,5 @@
 :root {
-    font-size: 140%;
+    font-size: 1.4rem;
 }
 
 body {
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: serif;
-    font-size: 16px;
+    font-size: 0.8rem;
     text-align: justify;
     margin: 0;
     padding: 4px 8px;
@@ -99,4 +99,24 @@ article{
 
 #main-article img{
   width: 100%;
+}
+
+figure{
+  position: relative;
+}
+
+figcaption{
+  position: absolute;
+  font-size: 12px;
+  margin: 0px;
+  right: 0px;
+}
+
+
+@media (max-width: 600px) {
+  header h1{
+    font-size: 30px;
+    margin: 20px;
+  }
+
 }
